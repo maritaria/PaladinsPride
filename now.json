@@ -1,0 +1,6 @@
+{
+  "env": {
+    "PALADINS_API_DEV": "@paladins-api-dev",
+    "PALADINS_API_KEY": "@paladins-api-key"
+  }
+}

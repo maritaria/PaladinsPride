@@ -1,0 +1,57 @@
+<!-- Player
+  { Created_Datetime: '10/21/2016 8:31:55 PM',
+    Id: 3719862,
+    Last_Login_Datetime: '3/1/2018 4:28:15 PM',
+    Leaves: 21,
+    Level: 57,
+    Losses: 239,
+    MasteryLevel: 29,
+    Name: 'maritaria',
+    Personal_Status_Message: '',
+    RankedConquest:
+     { Leaves: 8,
+       Losses: 49,
+       Name: 'Conquest',
+       Points: 0,
+       PrevRank: 0,
+       Rank: 0,
+       Rank_Stat_Conquest: null,
+       Rank_Stat_Duel: null,
+       Rank_Stat_Joust: null,
+       Season: 1,
+       Tier: 11,
+       Trend: 0,
+       Wins: 48,
+       player_id: null,
+       ret_msg: null },
+    Region: 'Europe',
+    TeamId: 0,
+    Team_Name: '',
+    Tier_Conquest: 11,
+    Total_Achievements: 40,
+    Total_Worshippers: 33037044,
+    Wins: 289,
+    ret_msg: null } ]
+-->
+<h1>{{player.Name}}</h1>
+
+<h2>Hero details</h2>
+<!-- Champion
+	{ Assists: 0,
+	  Deaths: 0,
+	  Kills: 0,
+	  Losses: 0,
+	  MinionKills: 0,
+	  Rank: 1,
+	  Wins: 0,
+	  Worshippers: 28535,
+	  champion: 'Torvald',
+	  champion_id: '2322',
+	  player_id: '3719862',
+	  ret_msg: null }
+-->
+{{#each champions}}
+    <div class="row">
+		<p>{{champion}} <span>#{{champion_id}}</span></p>
+	</div>
+{{/each}}

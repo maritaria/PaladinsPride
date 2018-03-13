@@ -1,0 +1,31 @@
+{
+  "name": "paladins-pride",
+  "version": "1.0.0",
+  "description": "Replacement of spreadsheets",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "now": "^10.1.5",
+    "paladins-api": "^1.5.1",
+    "promise": "^8.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maritaria/PaladinsPride.git"
+  },
+  "keywords": [
+    "paladins"
+  ],
+  "author": "maritaria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maritaria/PaladinsPride/issues"
+  },
+  "homepage": "https://github.com/maritaria/PaladinsPride#readme"
+}
